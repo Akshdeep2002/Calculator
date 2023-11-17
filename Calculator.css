@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+  }
+  .flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor : pointer;
+    background-color: lightgray;
+  }
+  .operator{
+    background-color: darkgrey;
+  }
+  .row{
+    margin: 8px 0;
+  }
+  .row input{
+    font-size: 35px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 8px solid darkgreen;
+    border-radius: 10px;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
